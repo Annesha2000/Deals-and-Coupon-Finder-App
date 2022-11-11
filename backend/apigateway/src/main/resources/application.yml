@@ -1,0 +1,38 @@
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/
+server:
+  port: 8084
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+      - id: coupon-service
+        predicates: Path= /coupon/**
+        uri: http://localhost:8081/
+      - id: deal-service
+        predicates: Path=/deal/**
+        uri: http://localhost:8082/
+      - id: cart-service
+        predicates: Path=/cart/**
+        uri: http://localhost:8083/
+      - id: payment-service
+        predicates: Path=/payment/**
+        uri: http://localhost:8087/
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedHeaders: "*"
+            allowedMethods:
+            - GET
+            - POST
+            - PUT
+            - DELETE
