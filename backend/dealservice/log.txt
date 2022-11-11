@@ -1,0 +1,496 @@
+2022-10-31 10:49:09.079  INFO 4580 --- [restartedMain] c.c.dealservice.DealserviceApplication   : Starting DealserviceApplication using Java 17.0.4 on DESKTOP-JS6O3VL with PID 4580 (G:\annesha\sts workspace\New folder\dealservice\target\classes started by DEBNATH in G:\annesha\sts workspace\New folder\dealservice)
+2022-10-31 10:49:09.097 DEBUG 4580 --- [restartedMain] c.c.dealservice.DealserviceApplication   : Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-31 10:49:09.099  INFO 4580 --- [restartedMain] c.c.dealservice.DealserviceApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-10-31 10:49:09.715  INFO 4580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-31 10:49:09.717  INFO 4580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-31 10:49:17.056  INFO 4580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-31 10:49:18.142  INFO 4580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1071 ms. Found 1 MongoDB repository interfaces.
+2022-10-31 10:49:20.037  INFO 4580 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1d83b5f8-d7f4-3ba1-b208-5a37313ea79c
+2022-10-31 10:49:25.087  INFO 4580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-31 10:49:25.146  INFO 4580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-31 10:49:25.147  INFO 4580 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-31 10:49:26.343  INFO 4580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-31 10:49:26.343  INFO 4580 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 16625 ms
+2022-10-31 10:49:30.855  INFO 4580 --- [cluster-ClusterId{value='635f5ae27397550736f08c9f', description='null'}-srv-cluster0.ykmtqbt.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017 to client view of cluster
+2022-10-31 10:49:30.929  INFO 4580 --- [restartedMain] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.4+8"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=majority, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='Annesha', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@111ecf4c]}, clusterSettings={hosts=[127.0.0.1:27017], srvHost=cluster0.ykmtqbt.mongodb.net, srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='atlas-7f1464-shard-0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=true, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-31 10:49:30.972  INFO 4580 --- [cluster-ClusterId{value='635f5ae27397550736f08c9f', description='null'}-srv-cluster0.ykmtqbt.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017 to client view of cluster
+2022-10-31 10:49:30.974  INFO 4580 --- [cluster-ClusterId{value='635f5ae27397550736f08c9f', description='null'}-srv-cluster0.ykmtqbt.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017 to client view of cluster
+2022-10-31 10:49:31.460  WARN 4580 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-10-31 10:49:32.187  INFO 4580 --- [cluster-ClusterId{value='635f5ae27397550736f08c9f', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:659358}] to ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017
+2022-10-31 10:49:32.187  INFO 4580 --- [cluster-rtt-ClusterId{value='635f5ae27397550736f08c9f', description='null'}-ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:639486}] to ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017
+2022-10-31 10:49:32.187  INFO 4580 --- [cluster-rtt-ClusterId{value='635f5ae27397550736f08c9f', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:659358}] to ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017
+2022-10-31 10:49:32.188  INFO 4580 --- [cluster-rtt-ClusterId{value='635f5ae27397550736f08c9f', description='null'}-ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:640798}] to ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017
+2022-10-31 10:49:32.187  INFO 4580 --- [cluster-ClusterId{value='635f5ae27397550736f08c9f', description='null'}-ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:639486}] to ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017
+2022-10-31 10:49:32.188  INFO 4580 --- [cluster-ClusterId{value='635f5ae27397550736f08c9f', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=473494800, setName='atlas-7f1464-shard-0', canonicalAddress=ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017, hosts=[ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017], passives=[], arbiters=[], primary='ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='GCP'}, Tag{name='region', value='ASIA_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff000000000000004d, setVersion=6, topologyVersion=TopologyVersion{processId=6346d7b3d877d01b38fa738c, counter=6}, lastWriteDate=Mon Oct 31 10:49:29 IST 2022, lastUpdateTimeNanos=254497391018100}
+2022-10-31 10:49:32.187  INFO 4580 --- [cluster-ClusterId{value='635f5ae27397550736f08c9f', description='null'}-ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:640798}] to ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017
+2022-10-31 10:49:32.615  INFO 4580 --- [cluster-ClusterId{value='635f5ae27397550736f08c9f', description='null'}-ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=474145500, setName='atlas-7f1464-shard-0', canonicalAddress=ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017, hosts=[ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017], passives=[], arbiters=[], primary='ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='GCP'}, Tag{name='region', value='ASIA_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=6, topologyVersion=TopologyVersion{processId=6346d6e62ba0db1fbdf22d74, counter=4}, lastWriteDate=Mon Oct 31 10:49:29 IST 2022, lastUpdateTimeNanos=254497391018300}
+2022-10-31 10:49:32.196  INFO 4580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-31 10:49:32.615  INFO 4580 --- [cluster-ClusterId{value='635f5ae27397550736f08c9f', description='null'}-ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=486520600, setName='atlas-7f1464-shard-0', canonicalAddress=ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017, hosts=[ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017], passives=[], arbiters=[], primary='ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='GCP'}, Tag{name='region', value='ASIA_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=6, topologyVersion=TopologyVersion{processId=6346d8e3d0653d1e8fad3a7f, counter=3}, lastWriteDate=Mon Oct 31 10:49:29 IST 2022, lastUpdateTimeNanos=254497391761700}
+2022-10-31 10:49:32.642  INFO 4580 --- [cluster-ClusterId{value='635f5ae27397550736f08c9f', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff000000000000004d from replica set primary ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017
+2022-10-31 10:49:39.069  INFO 4580 --- [cluster-ClusterId{value='635f5ae27397550736f08c9f', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 6 from replica set primary ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017
+2022-10-31 10:49:39.070  INFO 4580 --- [cluster-ClusterId{value='635f5ae27397550736f08c9f', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017
+2022-10-31 10:49:32.800  WARN 4580 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-10-31 10:49:43.518  INFO 4580 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-31 10:49:49.778  INFO 4580 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-10-31 10:49:51.187  WARN 4580 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-31 10:49:51.503  INFO 4580 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-10-31 10:49:51.612  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-10-31 10:49:51.630  INFO 4580 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-31 10:49:51.709  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-10-31 10:49:51.710  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-10-31 10:49:51.710  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-10-31 10:49:51.710  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-10-31 10:49:51.711  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-10-31 10:49:51.711  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-10-31 10:49:52.091  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-10-31 10:49:54.430  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-10-31 10:49:54.440  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-10-31 10:49:54.488  INFO 4580 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-31 10:49:54.506  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1667193594503 with initial instances count: 0
+2022-10-31 10:49:54.508  INFO 4580 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DEAL-SERVICE with eureka with status UP
+2022-10-31 10:49:54.510  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1667193594510, current=UP, previous=STARTING]
+2022-10-31 10:49:54.605  INFO 4580 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082: registering service...
+2022-10-31 10:49:54.653  INFO 4580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-31 10:49:54.706  INFO 4580 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2022-10-31 10:49:55.253  INFO 4580 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082 - registration status: 204
+2022-10-31 10:49:55.691  INFO 4580 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-10-31 10:49:55.778  INFO 4580 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-10-31 10:49:56.134  INFO 4580 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-10-31 10:49:56.770  INFO 4580 --- [restartedMain] c.c.dealservice.DealserviceApplication   : Started DealserviceApplication in 53.235 seconds (JVM running for 58.594)
+2022-10-31 10:50:06.850  INFO 4580 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 9 class path changes (0 additions, 9 deletions, 0 modifications)
+2022-10-31 10:50:07.006  INFO 4580 --- [Thread-6] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application DEAL-SERVICE with eureka with status DOWN
+2022-10-31 10:50:07.006  INFO 4580 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1667193607006, current=DOWN, previous=UP]
+2022-10-31 10:50:07.007  INFO 4580 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082: registering service...
+2022-10-31 10:50:07.174  INFO 4580 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082 - registration status: 204
+2022-10-31 10:50:07.380  INFO 4580 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-31 10:50:07.713  INFO 4580 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-10-31 10:50:10.718  INFO 4580 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-10-31 10:50:10.739  INFO 4580 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082 - deregister  status: 200
+2022-10-31 10:50:10.749  INFO 4580 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-10-31 10:50:11.252  INFO 4580 --- [restartedMain] c.c.dealservice.DealserviceApplication   : Starting DealserviceApplication using Java 17.0.4 on DESKTOP-JS6O3VL with PID 4580 (G:\annesha\sts workspace\New folder\dealservice\target\classes started by DEBNATH in G:\annesha\sts workspace\New folder\dealservice)
+2022-10-31 10:50:11.253 DEBUG 4580 --- [restartedMain] c.c.dealservice.DealserviceApplication   : Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-31 10:50:11.254  INFO 4580 --- [restartedMain] c.c.dealservice.DealserviceApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-10-31 10:50:13.659  INFO 4580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-31 10:50:13.675  INFO 4580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 MongoDB repository interfaces.
+2022-10-31 10:50:13.995  INFO 4580 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1d83b5f8-d7f4-3ba1-b208-5a37313ea79c
+2022-10-31 10:50:14.147  INFO 4580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-31 10:50:14.149  INFO 4580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-31 10:50:14.149  INFO 4580 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-31 10:50:14.212  INFO 4580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-31 10:50:14.212  INFO 4580 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2952 ms
+2022-10-31 10:50:20.259  INFO 4580 --- [restartedMain] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.4+8"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=majority, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='Annesha', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@111ecf4c]}, clusterSettings={hosts=[127.0.0.1:27017], srvHost=cluster0.ykmtqbt.mongodb.net, srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='atlas-7f1464-shard-0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=true, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-31 10:50:20.277  WARN 4580 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-10-31 10:50:20.313  INFO 4580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-31 10:50:20.331  INFO 4580 --- [cluster-ClusterId{value='635f5b147397550736f08ca0', description='null'}-srv-cluster0.ykmtqbt.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017 to client view of cluster
+2022-10-31 10:50:20.332  INFO 4580 --- [cluster-ClusterId{value='635f5b147397550736f08ca0', description='null'}-srv-cluster0.ykmtqbt.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017 to client view of cluster
+2022-10-31 10:50:20.333  INFO 4580 --- [cluster-ClusterId{value='635f5b147397550736f08ca0', description='null'}-srv-cluster0.ykmtqbt.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017 to client view of cluster
+2022-10-31 10:50:20.602  WARN 4580 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-10-31 10:50:21.233  INFO 4580 --- [cluster-ClusterId{value='635f5b147397550736f08ca0', description='null'}-ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:9, serverValue:639509}] to ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:21.233  INFO 4580 --- [cluster-rtt-ClusterId{value='635f5b147397550736f08ca0', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:12, serverValue:659381}] to ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:21.233  INFO 4580 --- [cluster-rtt-ClusterId{value='635f5b147397550736f08ca0', description='null'}-ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:8, serverValue:640816}] to ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:21.233  INFO 4580 --- [cluster-ClusterId{value='635f5b147397550736f08ca0', description='null'}-ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=602014700, setName='atlas-7f1464-shard-0', canonicalAddress=ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017, hosts=[ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017], passives=[], arbiters=[], primary='ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='GCP'}, Tag{name='region', value='ASIA_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=6, topologyVersion=TopologyVersion{processId=6346d8e3d0653d1e8fad3a7f, counter=3}, lastWriteDate=Mon Oct 31 10:50:18 IST 2022, lastUpdateTimeNanos=254546440043500}
+2022-10-31 10:50:21.247  INFO 4580 --- [cluster-ClusterId{value='635f5b147397550736f08ca0', description='null'}-ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:640816}] to ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:21.247  INFO 4580 --- [cluster-ClusterId{value='635f5b147397550736f08ca0', description='null'}-ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=608276600, setName='atlas-7f1464-shard-0', canonicalAddress=ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017, hosts=[ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017], passives=[], arbiters=[], primary='ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='GCP'}, Tag{name='region', value='ASIA_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=6, topologyVersion=TopologyVersion{processId=6346d6e62ba0db1fbdf22d74, counter=4}, lastWriteDate=Mon Oct 31 10:50:18 IST 2022, lastUpdateTimeNanos=254546454029400}
+2022-10-31 10:50:21.248  INFO 4580 --- [cluster-rtt-ClusterId{value='635f5b147397550736f08ca0', description='null'}-ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:10, serverValue:639509}] to ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:28.596  INFO 4580 --- [cluster-ClusterId{value='635f5b147397550736f08ca0', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:11, serverValue:659380}] to ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:28.597  INFO 4580 --- [cluster-ClusterId{value='635f5b147397550736f08ca0', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7919025300, setName='atlas-7f1464-shard-0', canonicalAddress=ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017, hosts=[ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017], passives=[], arbiters=[], primary='ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='GCP'}, Tag{name='region', value='ASIA_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff000000000000004d, setVersion=6, topologyVersion=TopologyVersion{processId=6346d7b3d877d01b38fa738c, counter=6}, lastWriteDate=Mon Oct 31 10:50:25 IST 2022, lastUpdateTimeNanos=254553803032000}
+2022-10-31 10:50:28.598  INFO 4580 --- [cluster-ClusterId{value='635f5b147397550736f08ca0', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff000000000000004d from replica set primary ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:28.598  INFO 4580 --- [cluster-ClusterId{value='635f5b147397550736f08ca0', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 6 from replica set primary ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:28.598  INFO 4580 --- [cluster-ClusterId{value='635f5b147397550736f08ca0', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:28.651  INFO 4580 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-31 10:50:29.712  INFO 4580 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-10-31 10:50:30.370  INFO 4580 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 9 class path changes (9 additions, 0 deletions, 0 modifications)
+2022-10-31 10:50:30.635  WARN 4580 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-31 10:50:30.810  INFO 4580 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-10-31 10:50:30.816  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-10-31 10:50:30.817  INFO 4580 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-31 10:50:30.823  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-10-31 10:50:30.823  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-10-31 10:50:30.823  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-10-31 10:50:30.824  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-10-31 10:50:30.824  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-10-31 10:50:30.824  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-10-31 10:50:30.825  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-10-31 10:50:30.994  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-10-31 10:50:31.001  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-10-31 10:50:31.002  INFO 4580 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-31 10:50:31.005  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1667193631005 with initial instances count: 1
+2022-10-31 10:50:31.007  INFO 4580 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DEAL-SERVICE with eureka with status UP
+2022-10-31 10:50:33.216  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1667193633216, current=UP, previous=STARTING]
+2022-10-31 10:50:33.236  INFO 4580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-31 10:50:33.237  INFO 4580 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2022-10-31 10:50:33.249  INFO 4580 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082: registering service...
+2022-10-31 10:50:33.375  INFO 4580 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082 - registration status: 204
+2022-10-31 10:50:34.302  INFO 4580 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-10-31 10:50:34.305  INFO 4580 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-10-31 10:50:34.314  INFO 4580 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-10-31 10:50:34.390  INFO 4580 --- [restartedMain] c.c.dealservice.DealserviceApplication   : Started DealserviceApplication in 23.452 seconds (JVM running for 96.214)
+2022-10-31 10:50:34.391  INFO 4580 --- [Thread-10] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application DEAL-SERVICE with eureka with status DOWN
+2022-10-31 10:50:34.391  INFO 4580 --- [Thread-10] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1667193634391, current=DOWN, previous=UP]
+2022-10-31 10:50:34.392  INFO 4580 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082: registering service...
+2022-10-31 10:50:34.402  INFO 4580 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082 - registration status: 204
+2022-10-31 10:50:34.403  INFO 4580 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-10-31 10:50:34.408  INFO 4580 --- [Thread-10] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-31 10:50:34.592  INFO 4580 --- [Thread-10] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-10-31 10:50:37.594  INFO 4580 --- [Thread-10] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-10-31 10:50:37.603  INFO 4580 --- [Thread-10] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082 - deregister  status: 200
+2022-10-31 10:50:37.612  INFO 4580 --- [Thread-10] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-10-31 10:50:38.330  INFO 4580 --- [restartedMain] c.c.dealservice.DealserviceApplication   : Starting DealserviceApplication using Java 17.0.4 on DESKTOP-JS6O3VL with PID 4580 (G:\annesha\sts workspace\New folder\dealservice\target\classes started by DEBNATH in G:\annesha\sts workspace\New folder\dealservice)
+2022-10-31 10:50:38.331 DEBUG 4580 --- [restartedMain] c.c.dealservice.DealserviceApplication   : Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-31 10:50:38.331  INFO 4580 --- [restartedMain] c.c.dealservice.DealserviceApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-10-31 10:50:39.721  INFO 4580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-31 10:50:39.750  INFO 4580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 MongoDB repository interfaces.
+2022-10-31 10:50:40.193  INFO 4580 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1d83b5f8-d7f4-3ba1-b208-5a37313ea79c
+2022-10-31 10:50:40.493  INFO 4580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-31 10:50:40.507  INFO 4580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-31 10:50:40.507  INFO 4580 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-31 10:50:40.670  INFO 4580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-31 10:50:40.671  INFO 4580 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2284 ms
+2022-10-31 10:50:40.738  INFO 4580 --- [restartedMain] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.4+8"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=majority, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='Annesha', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@111ecf4c]}, clusterSettings={hosts=[127.0.0.1:27017], srvHost=cluster0.ykmtqbt.mongodb.net, srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='atlas-7f1464-shard-0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=true, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-31 10:50:40.755  WARN 4580 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-10-31 10:50:40.774  INFO 4580 --- [cluster-ClusterId{value='635f5b287397550736f08ca1', description='null'}-srv-cluster0.ykmtqbt.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017 to client view of cluster
+2022-10-31 10:50:41.094  INFO 4580 --- [cluster-ClusterId{value='635f5b287397550736f08ca1', description='null'}-srv-cluster0.ykmtqbt.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017 to client view of cluster
+2022-10-31 10:50:41.095  INFO 4580 --- [cluster-ClusterId{value='635f5b287397550736f08ca1', description='null'}-srv-cluster0.ykmtqbt.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017 to client view of cluster
+2022-10-31 10:50:41.121  INFO 4580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-31 10:50:41.144  WARN 4580 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-10-31 10:50:42.550  INFO 4580 --- [cluster-ClusterId{value='635f5b287397550736f08ca1', description='null'}-ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:13, serverValue:640827}] to ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:42.550  INFO 4580 --- [cluster-ClusterId{value='635f5b287397550736f08ca1', description='null'}-ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1378767100, setName='atlas-7f1464-shard-0', canonicalAddress=ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017, hosts=[ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017], passives=[], arbiters=[], primary='ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='GCP'}, Tag{name='region', value='ASIA_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=6, topologyVersion=TopologyVersion{processId=6346d6e62ba0db1fbdf22d74, counter=4}, lastWriteDate=Mon Oct 31 10:50:39 IST 2022, lastUpdateTimeNanos=254567756777100}
+2022-10-31 10:50:42.554  INFO 4580 --- [cluster-rtt-ClusterId{value='635f5b287397550736f08ca1', description='null'}-ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:16, serverValue:639521}] to ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:42.601  INFO 4580 --- [cluster-rtt-ClusterId{value='635f5b287397550736f08ca1', description='null'}-ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:14, serverValue:640827}] to ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:42.609  INFO 4580 --- [cluster-ClusterId{value='635f5b287397550736f08ca1', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:17, serverValue:659345}] to ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:42.609  INFO 4580 --- [cluster-ClusterId{value='635f5b287397550736f08ca1', description='null'}-ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:15, serverValue:639521}] to ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:42.609  INFO 4580 --- [cluster-ClusterId{value='635f5b287397550736f08ca1', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=175518100, setName='atlas-7f1464-shard-0', canonicalAddress=ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017, hosts=[ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017], passives=[], arbiters=[], primary='ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='GCP'}, Tag{name='region', value='ASIA_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff000000000000004d, setVersion=6, topologyVersion=TopologyVersion{processId=6346d7b3d877d01b38fa738c, counter=6}, lastWriteDate=Mon Oct 31 10:50:39 IST 2022, lastUpdateTimeNanos=254567815585200}
+2022-10-31 10:50:42.609  INFO 4580 --- [cluster-ClusterId{value='635f5b287397550736f08ca1', description='null'}-ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=199998000, setName='atlas-7f1464-shard-0', canonicalAddress=ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017, hosts=[ac-j3w0vuh-shard-00-00.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017, ac-j3w0vuh-shard-00-01.ykmtqbt.mongodb.net:27017], passives=[], arbiters=[], primary='ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='GCP'}, Tag{name='region', value='ASIA_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=6, topologyVersion=TopologyVersion{processId=6346d8e3d0653d1e8fad3a7f, counter=3}, lastWriteDate=Mon Oct 31 10:50:39 IST 2022, lastUpdateTimeNanos=254567815585300}
+2022-10-31 10:50:42.610  INFO 4580 --- [cluster-ClusterId{value='635f5b287397550736f08ca1', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff000000000000004d from replica set primary ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:44.552  INFO 4580 --- [cluster-ClusterId{value='635f5b287397550736f08ca1', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 6 from replica set primary ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:44.552  INFO 4580 --- [cluster-ClusterId{value='635f5b287397550736f08ca1', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:42.631  INFO 4580 --- [cluster-rtt-ClusterId{value='635f5b287397550736f08ca1', description='null'}-ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:18, serverValue:659345}] to ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017
+2022-10-31 10:50:42.815  INFO 4580 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-31 10:50:45.772  INFO 4580 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-10-31 10:50:46.600  WARN 4580 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-31 10:50:46.693  INFO 4580 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-10-31 10:50:46.699  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-10-31 10:50:46.699  INFO 4580 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-31 10:50:46.703  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-10-31 10:50:46.704  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-10-31 10:50:46.704  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-10-31 10:50:46.704  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-10-31 10:50:46.704  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-10-31 10:50:46.704  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-10-31 10:50:46.710  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-10-31 10:50:46.748  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-10-31 10:50:46.750  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-10-31 10:50:46.752  INFO 4580 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-31 10:50:46.755  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1667193646754 with initial instances count: 1
+2022-10-31 10:50:46.756  INFO 4580 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DEAL-SERVICE with eureka with status UP
+2022-10-31 10:50:46.757  INFO 4580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1667193646757, current=UP, previous=STARTING]
+2022-10-31 10:50:46.763  INFO 4580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-31 10:50:46.765  INFO 4580 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2022-10-31 10:50:46.797  INFO 4580 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082: registering service...
+2022-10-31 10:50:46.847  INFO 4580 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082 - registration status: 204
+2022-10-31 10:50:47.412  INFO 4580 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-10-31 10:50:47.414  INFO 4580 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-10-31 10:50:47.438  INFO 4580 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-10-31 10:50:47.516  INFO 4580 --- [restartedMain] c.c.dealservice.DealserviceApplication   : Started DealserviceApplication in 9.746 seconds (JVM running for 109.34)
+2022-10-31 10:50:47.531  INFO 4580 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-10-31 10:51:59.116  INFO 4580 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-31 10:51:59.116  INFO 4580 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-31 10:51:59.118  INFO 4580 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-10-31 10:51:59.606  INFO 4580 --- [http-nio-8082-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:19, serverValue:659430}] to ac-j3w0vuh-shard-00-02.ykmtqbt.mongodb.net:27017
+2022-10-31 10:55:46.725  INFO 4580 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-31 11:00:46.728  INFO 4580 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-31 11:05:46.741  INFO 4580 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-31 11:10:46.754  INFO 4580 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-31 11:15:46.760  INFO 4580 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-31 11:20:46.775  INFO 4580 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-31 11:25:46.779  INFO 4580 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-31 11:27:25.256  INFO 4580 --- [RMI TCP Connection(56)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-31 11:27:25.261  INFO 4580 --- [RMI TCP Connection(56)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application DEAL-SERVICE with eureka with status DOWN
+2022-10-31 11:27:25.261  INFO 4580 --- [RMI TCP Connection(56)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1667195845261, current=DOWN, previous=UP]
+2022-10-31 11:27:25.271  INFO 4580 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082: registering service...
+2022-10-31 11:27:25.291  INFO 4580 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082 - registration status: 204
+2022-10-31 11:27:25.308  INFO 4580 --- [RMI TCP Connection(56)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-31 11:27:25.309  INFO 4580 --- [RMI TCP Connection(56)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-31 11:27:25.583  INFO 4580 --- [RMI TCP Connection(56)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-10-31 11:27:28.596  INFO 4580 --- [RMI TCP Connection(56)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-10-31 11:27:28.630  INFO 4580 --- [RMI TCP Connection(56)-127.0.0.1] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+	at jdk.internal.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 74 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 87 more
+
+2022-10-31 11:27:28.630  WARN 4580 --- [RMI TCP Connection(56)-127.0.0.1] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-10-31 11:27:28.638  INFO 4580 --- [RMI TCP Connection(56)-127.0.0.1] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+	at jdk.internal.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 75 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 88 more
+
+2022-10-31 11:27:28.639  WARN 4580 --- [RMI TCP Connection(56)-127.0.0.1] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-10-31 11:27:28.651 ERROR 4580 --- [RMI TCP Connection(56)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEAL-SERVICE/DESKTOP-JS6O3VL.bbrouter:deal-service:8082 - de-registration failedCannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948) ~[eureka-client-1.10.17.jar:1.10.17]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390) ~[spring-cloud-context-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136) ~[spring-cloud-context-3.1.3.jar:3.1.3]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174) ~[spring-boot-2.7.3.jar:2.7.3]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-2.7.3.jar:2.7.3]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72) ~[na:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor64.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829) ~[na:na]
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor66.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-10-31 11:27:28.666  INFO 4580 --- [RMI TCP Connection(56)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
